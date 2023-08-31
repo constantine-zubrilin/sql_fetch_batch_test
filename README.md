@@ -2,6 +2,10 @@
 
 Question to answer: how many rows are fetched from DB when iterator is used?
 
+## Tl;DR
+
+Php fetches more than 1 row when Doctrine iterator is used. Although there is a nuance, php does not tell about it.
+
 ## Test data
 
 PostgreSQL table:
